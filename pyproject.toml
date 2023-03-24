@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "fastapi-template"
+version = "0.1.0"
+description = ""
+authors = ["rayyanhunerkar <rayyan.hunerkar@sparkeighteen.com>"]
+readme = "README.md"
+packages = [{include = "fastapi_template"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.87.0"
+uvicorn = {extras = ["standard"], version = "^0.19.0"}
+sqlalchemy = {extras = ["asyncio"], version = "^1.4.44"}
+alembic = "^1.8.1"
+asyncpg = "^0.27.0"
+pyjwt = "^2.6.0"
+pytest = "^7.2.0"
+pytest-cov = "^4.0.0"
+envyaml = "^1.10.211231"
+greenlet = "^2.0.1"
+pre-commit = "^2.20.0"
+pytest-asyncio = "^0.20.2"
+httpx = "^0.23.1"
+sqlalchemy-utils = "^0.38.3"
+pytest-mock = "^3.10.0"
+passlib = "^1.7.4"
+pydantic = {extras = ["email"], version = "^1.10.2"}
+bcrypt = "^4.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

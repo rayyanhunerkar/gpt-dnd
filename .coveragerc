@@ -1,0 +1,5 @@
+[run]
+include = ./*
+branch=True
+omit = */venv/*
+disable_warnings=include-ignored

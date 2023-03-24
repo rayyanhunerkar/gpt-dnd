@@ -1,0 +1,16 @@
+# Git
+.git
+.gitignore
+
+# Docker
+.docker
+
+# Python
+venv/
+data/
+logfile.log
+.DS_Store
+.coverage
+.idea/
+htmlcov/
+.pytest_cache/
